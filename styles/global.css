@@ -89,6 +89,26 @@ color: var(--blue);
 border: .2rem solid var(--blue);
 }
 
+button.red,
+.button.red{
+
+  background: var(--red);
+  color: var(--white);
+
+
+}
+
+button.gray,
+.button.gray{
+
+  background: var(--grey-light);
+  color:var(--grey-dark)
+
+  
+}
+
+/* daqui pra baixo é o header */
+
 .content{
 
   width: 100%;

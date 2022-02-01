@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/room.css">
+    <link rel="stylesheet" href="styles/modal.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -130,19 +131,21 @@
                         </div>
                     </div>
 
-                    
+
                     <div class="question-wrapper">
                         <div class="question-content">
                             <div class="user">
                                 <img src="/assets/user.svg" alt="user">
                             </div>
                             <div class="question">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum odit quia error soluta.
-                                     Ipsam recusandae quos tenetur distinctio laboriosam eum doloremque dolorum quod, 
-                                     modi omnis quo blanditiis pariatur ea voluptatum!
-                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum odit quia error soluta.
-                                     Ipsam recusandae quos tenetur distinctio laboriosam eum doloremque dolorum quod, 
-                                     modi omnis quo blanditiis pariatur ea voluptatum!</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum odit quia error
+                                    soluta.
+                                    Ipsam recusandae quos tenetur distinctio laboriosam eum doloremque dolorum quod,
+                                    modi omnis quo blanditiis pariatur ea voluptatum!
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum odit quia error
+                                    soluta.
+                                    Ipsam recusandae quos tenetur distinctio laboriosam eum doloremque dolorum quod,
+                                    modi omnis quo blanditiis pariatur ea voluptatum!</p>
                             </div>
 
                         </div>
@@ -166,6 +169,25 @@
 
 
         </main>
+    </div>
+
+
+    <!--  MODAL -->
+
+    <div class="modal-wrapper">
+        <div class="modal">
+            <h2>Excluir pergunta</h2>
+            <p>Tem certeza que você deseja excluir esta pergunta</p>
+            <form action="#">
+                <label class="sr-only" for="password"> Digite sua senha de admin</label>
+                <input type="password" id="password" name="password" placeholder="Digite sua senha" />
+                <div class="buttons">
+                    <div class="button gray">Cancelar</div>
+                    <button class="red">Sim, Excluir</button>
+                </div>
+            </form>
+
+        </div>
     </div>
 </body>
 
