@@ -1,0 +1,20 @@
+{
+  "name": "nlw-together-HTML-CSS-JS",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para treinar ded HTML CSS e JS",
+  "main": "src/server.js",
+  "repository": "https://github.com/jordaomoraes/nlw-together-HTML-CSS-JS.git",
+  "author": "Guilherme Jordão <guijmoraes@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+ 
+    "start": "nodemon ."
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
